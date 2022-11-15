@@ -1,2 +1,2 @@
-# SolvingProblemsWithCodeWars
-solving problems with code wars
+# SolvingTasksWithCodeWars
+solving tasks with code wars
