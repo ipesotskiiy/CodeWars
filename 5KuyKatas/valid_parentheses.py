@@ -1,5 +1,5 @@
-def valid_parentheses(string):
-    stack = []
+def valid_parentheses(string: str) -> bool:
+    stack: list = []
     for i in string:
         if i == '(':
             stack.append(i)
