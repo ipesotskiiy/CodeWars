@@ -1,7 +1,10 @@
+import math
+
+
 def nb_year(p0, percent, aug, p):
-    years = 0
-    while True:
-        p0 += (p0 * (percent/100)) + aug
-        years += 1
-        if p0 >= p:
-            return years
+    count = 0
+
+    while p0 < p:
+        p0 = math.floor(p0) + (math.floor(p0) * percent / 100) + aug
+        count += 1
+    return count
